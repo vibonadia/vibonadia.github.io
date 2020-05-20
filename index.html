@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>vbonadia</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/materialize-min.css"/>
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+  <script src="js/vendor/jquery.hashchange.min.js"></script>
+  <script src="js/vendor/jquery.easytabs.min.js"></script>
+
+  <link rel="shortcut icon" href="images/icon.png" />
+
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+      
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-64681324-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-64681324-1');
+	</script>
+
+ </head>
+  <body class="bg-2">
+<!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+   <div class="main-container">
+    <div class="main wrapper clearfix">
+      <!-- Header Start -->
+        <header id="header">
+        </header>
+        <!-- Header End -->
+        <!-- Main Tab Container -->
+        <div id="tab-container" class="tab-container">
+        
+          <!-- Tab List -->
+            <ul class='etabs'>
+                <li class='tab'>
+                  <a href="#about"><i class="mdi-action-assignment-ind"></i> <span>About Me</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#publications"><i class="mdi-av-my-library-books"></i> <span>Publications</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#resume" onclick="refreshIframe();"><i class="mdi-image-portrait"></i> <span>Resume</span></a>
+                </li>
+                <li class='tab'>
+                  <a href="#others" onclick="refreshIframe();"><i class="mdi-image-portrait"></i> <span>Others</span></a>
+                </li>
+            </ul>
+          <!-- End Tab List -->
+          
+          
+            <div id="tab-data-wrap">
+              <!-- About Tab Data -->
+                <div id="about">
+                    <section class="clearfix">
+                        <div class="g2">
+                            <div class="photo">
+                                <img src="images/avatar.png" alt="Viviane">
+                            </div>
+                            <div class="info">
+                                <h3>
+                                    Viviane Bonadia dos Santos
+                                </h3>
+                                <p>
+                                I completed my master's degree under the supervision of Professor <a href="https://www.ime.usp.br/~leliane/">Leliane Nunes de Barros</a> in the area of ​​<a href="https://en.wikipedia.org/wiki/Automated_planning_and_scheduling">Automated Planning</a>. Currently, I am working with education, development and I am volunteer at <a href="http://brasil.pyladies.com/locations/"> Pyladies Sorocaba</a>.
+                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="main-links sidebar">
+                                <ul>
+                                    <li>
+                                    	<i class="tiny mdi-action-favorite"> Interests</i><br>
+                                    	<i class="tiny mdi-action-done"> Artificial Intelligence</i><br>
+                                    	<i class="tiny mdi-action-done"> Coding Teaching</i><br>
+                                    	<i class="tiny mdi-action-done"> Software Engineering</i><br>
+                                    	<i class="tiny mdi-action-done"> Promotion of Computational Thinking</i><br>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="break"></div>
+                        <div class="contact-info">
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <div class="item-data">
+                                <h3><a href="mailto:vbonadia@ime.usp.br">vbonadia@ime.usp.br</a></h3>
+                                <p>Email Address</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <div class="item-data">
+                                <h3><a href="http://lattes.cnpq.br/9237492612085066">Lattes</a></h3>
+                                <p>Curriculum Lattes</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="g1">
+                            <div class="item-box clearfix">
+                              <div class="item-data">
+                                <h3><a href="https://github.com/vibonadia">vibonadia</a></h3>
+                                <p>Github</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </section><!-- content -->
+                </div>
+              <!-- End About Tab Data -->
+              <!-- Publications Tab Data -->
+                <div id="publications">
+                    <section class="clearfix">
+                        <div class="g3">
+                            <ul class="no-list work">
+                                <li>
+                                	<span class="label label-info">2017</span>
+                                	<p><b>PACTL-SYM: um planejador baseado em Verificação Simbólica de Modelos.</b> SANTOS, V. B.; BARROS, L. N.. In: XIV Encontro Nacional de Inteligência Artificial e Computacional, 2017, Uberlândia - MG.</p>
+                                </li>
+                                <li>
+                                	<span class="label label-info">2016</span>
+                                	<p><b>Heurísticas para Detecção de Becos sem Saída em Planejamento Probabilístico.</b> SIMAO, T. D.; Ignasi Andres; SANTOS, V. B.; BARROS, L. N.. In: XIII Encontro Nacional de Inteligência Artificial e Computacional, 2016, Recife - PE. Anais do ENIAC 2016, 2016. p. 85-96.</p>
+                                </li>
+                                <li>
+                                	<span class="label label-info">2012</span>
+                                	<p><b>DataExplorer: descobrindo clusters de diferentes tipos.</b> SANTOS, V. B.; NASCIMENTO, M. V. R.; FACELI, K.; SAKATA, T. C.. In: IX Encontro de Inteligência Artificial, 2012, Curitiba. Proceedings of Brazilian Conference on Intelligent Systems, 2012.</p>
+                                	<p><b>A Comparison of External Clustering Evaluation Indices in the Context of Imbalanced Data Sets.</b> de Souto, Marcilio C.P.; COELHO, ANDRE L.V.; FACELI, KATTI; SAKATA, TIEMI C.; BONADIA, VIVIANE; Costa, Ivan G.. In: 2012 Brazilian Symposium on Neural Networks (SBRN), 2012, Curitiba. 2012 Brazilian Symposium on Neural Networks. p. 49.</p>
+                                </li>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Publications Data -->
+              <!-- Resume Tab Data -->
+                <div id="resume">
+                    <section class="clearfix">
+                    	<div class="g3">
+                    		<iframe name='timeline' src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1tpJ-KdWXjV9Z4qBmCieoxF37pvP0qHNtqx883LoGWj8&font=Default&lang=en&start_at_end=true&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Resume Tab Data -->
+              
+              <!-- Others Tab Data -->
+                <div id="others">
+                    <section class="clearfix">
+                    	<div class="g3">
+						<section class="clearfix">
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/projects/2017-meninas-digitais.jpg" alt="Evento meninas digitais e pyladies">
+                                Python Course for High School Students 2017 - Volunteer. Event by Pyladies SP + Meninas Digitais IME-USP. Photo: PyladiesSP
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/projects/2017-rails-girls-2.jpg" alt="">
+                                Volunteer in the <a href="https://www.facebook.com/railsgirlssorocaba/"> Rails Girls Sorocaba 2017 Event.</a> Photo: Rails Girls Sorocaba
+                            </div>
+                        </div>
+                        <div class="g1">
+                            <div class="image">
+                                <img src="images/projects/2016-hour-of-code-2.jpg" alt="">
+                                Volunteer in the <a href="https://medium.com/computing-to-you/hora-do-c%C3%B3digo-ufscar-2016-3d01f704269d"> Hour of Code 2016 </a> - <a href="http://uxleris.sor.ufscar.br/c2y/"> COMPUTING TO YOU Ufscar Sorocaba </a>
+                            </div>
+                        </div>
+                        </div>
+                    </section>
+                </div>
+              <!-- End Others Tab Data -->
+              
+              
+            </div>
+        </div>
+        <!-- End Tab Container -->
+        <footer>
+            <p>
+                &copy 2017 vbonadia. Designed by <a href="http://www.mrova.com/free-one-page-responsive-html-resume-template/" title="Pune web designing company">mRova</a>.
+            </p>
+        </footer>
+    </div><!-- #main -->
+</div><!-- #main-container -->
+
+<script type="text/javascript">
+
+
+  function refreshIframe() {
+    var hash = window.location.hash.substr(1);
+    if(hash != 'resume')
+    {
+      var ifr = document.getElementsByName('timeline')[0];
+      ifr.src = ifr.src;
+    }
+
+}
+
+</script>
+
+
+</body>
+</html>
