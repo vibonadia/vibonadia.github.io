@@ -115,6 +115,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 /* 1 column grid */
 .g1,.g2,.g3{width:98.0%}
 
+.gPhoto{
+	min-height: 260px;
+}
+
 /* Wrapper */
 .main{
   padding-top: 50px;
